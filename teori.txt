@@ -1,0 +1,16 @@
+#Nur Rohman 21090118
+
+
+Adjacent matrix adalah matriks yang hanya terdiri dari 1 dan 0. Dimana 1 menandakan jika node i menuju node j memiliki edge, dan 0 jika tidak memiliki edge.
+
+dalam Djikstra Algorithm, adjacent matrix adalah pemilihan jalur terpendek. Suatu matriks digunakan untuk menyatakan adjacency set setiap verteks dalam baris-barisnya. Nomor baris menyatakan nomor verteks adjacency berasal dan nomor kolom menunjukkan nomor verteks kemana arah adjacency. Elemen matriks [x, y] berharga 1 bila terdapat sisi dari x ke y dan berharga 0 bila tidak ada.
+
+Contoh : Kita akan menentukan jarak terdekat dimulai dari Tegal, untuk fotonya saya lampirkan dalam bentuk.png
+
+            Tegal   Pekalongan  Semarang    Kedu    Bagelen     Banyumas
+Tegal           0       1           0           0   0           1
+Pekalongan      1       0           1           1   0           0
+Semarang1       0       1           0           1   0           0
+Kedu            0       1           1           0   1           0
+Bagelen         0       0           0           1   0           1
+Banyumas        1       0           0           0   1           0
